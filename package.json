@@ -1,0 +1,33 @@
+{
+  "name": "mock-github-friend-ranking",
+  "version": "1.0.0",
+  "description": "Backend for dashboard application, implementing BFS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexYershov1/Mock-Github-Friend-Ranking.git"
+  },
+  "keywords": [
+    "BFS",
+    "github-mock"
+  ],
+  "type": "module",
+  "author": "Alex Yershov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexYershov1/Mock-Github-Friend-Ranking/issues"
+  },
+  "homepage": "https://github.com/AlexYershov1/Mock-Github-Friend-Ranking#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.3.4"
+  }
+}
